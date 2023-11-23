@@ -411,3 +411,19 @@ def e5_model_comparison():
     seperator = "-"        
     training_results.to_excel(path + f"A2C_training.xlsx")
     testing_results.to_excel(path + f"A2C_testing.xlsx")
+
+if __name__ == "__main__":
+    e1_parameter_search()
+    # e2_technical_indicators()
+    # e3_sentiment_features()
+    # e4_combined_features()
+    # e4_2_combined_features_refined()
+    #e5_model_comparison()
+
+
+
+
+
+
+
+
